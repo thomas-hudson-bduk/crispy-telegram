@@ -1,31 +1,34 @@
-## GeoJSON to JSONL Converter
+# GeoJSON to JSONL Converter
 
-This repository contains a Python script that converts GeoJSON files to JSONL (JSON Lines) format, with a specific focus on preserving the geometry data. JSONL format represents each JSON object as a separate line, which can be useful for streaming and processing large datasets.
+This repository contains a Python script that converts GeoJSON files to JSONL (JSON Lines) format, while also measuring the execution time of each step. JSONL format represents each JSON object as a separate line, which can be useful for streaming and processing large datasets.
 
-### Usage
+## Usage
 
 To use the converter script, follow these steps:
 
-1. Install the required dependencies by running the following command:
+1. Clone or download the repository to your local machine.
+
+2. Ensure that you have the necessary dependencies installed. You can install the required dependencies by running the following command:
 
    ```
-   !pip install geopandas
+   pip install geopandas
    ```
 
-2. Place your GeoJSON file in the same directory as the script.
+3. Open the Python script named `geojson_to_jsonl.py` in your preferred editor.
 
-3. Update the script with the filename of your GeoJSON file:
+4. Define the file paths for the input GeoJSON file and the desired output JSONL file:
 
    ```python
-   with open('input.geojson') as file:
-       data = json.load(file)
+   # Define file paths
+   input_file = 'Local_Authority_Districts_(May_2023)_UK_BFE.geojson'
+   output_file = 'output-2.jsonl'
    ```
 
-   Replace `'input.geojson'` with the filename of your GeoJSON file.
+   Replace `'Local_Authority_Districts_(May_2023)_UK_BFE.geojson'` with the actual file path of your input GeoJSON file, and `'output-2.jsonl'` with the desired output file path.
 
-4. Run the script.
+5. Run the script.
 
-   The script will read the GeoJSON file, convert each feature to JSONL format, and save the result in the `output.jsonl` file.
+   The script will read the GeoJSON file, process the features by adding a new property to each feature, measure the execution time of each step, and save the converted JSONL data to the output file. The execution time for each step will be printed in the console.
 
 ### Dependencies
 
