@@ -22,11 +22,11 @@ To use the converter script, follow these steps:
 
    ```python
    # Define file paths
-   input_file = 'Local_Authority_Districts_(May_2023)_UK_BFE.geojson'
-   output_file = 'output-2.jsonl'
+   input_file = 'input.geojson'
+   output_file = 'output.jsonl'
    ```
 
-   Replace `'Local_Authority_Districts_(May_2023)_UK_BFE.geojson'` with the actual file path of your input GeoJSON file, and `'output-2.jsonl'` with the desired output file path.
+   Replace `'input.geojson'` with the actual file path of your input GeoJSON file, and `'output.jsonl'` with the desired output file path.
 
 5. Run the script.
 
