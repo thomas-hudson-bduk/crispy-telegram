@@ -1,6 +1,6 @@
 # Define file paths
-input_file = 'Local_Authority_Districts_(May_2023)_UK_BFE.geojson'
-output_file = 'output-2.jsonl'
+input_file = 'input.geojson'
+output_file = 'output.jsonl'
 
 # Import libraries
 import json
