@@ -22,8 +22,6 @@ To maintain a clean and organized repository, consider following these best prac
 
 4. Consider using branches for different features or experiments, making it easier to manage and merge changes.
 
-5. Include a `requirements.txt` file to document the necessary dependencies for running the scripts. This helps others replicate your environment easily.
+### Acknowledgments
 
-6. Encourage collaboration by including contribution guidelines and a code of conduct in the repository. This promotes a healthy and inclusive community.
-
-7. Regularly review and update your repository to address issues, incorporate feedback, and keep your scripts up to date with any new versions or changes.
+I would like to express my gratitude to ChatGPT and Copilot for their invaluable assistance in the development of the code and documentation in this repository.
