@@ -1,3 +1,5 @@
+[This README, and the code, were created with the help of GitHub Copilot and OpenAI's ChatGPT]
+
 # GeoJSON to JSONL Converter
 
 This repository contains a Python script that converts GeoJSON files to JSONL (JSON Lines) format, while also measuring the execution time of each step. JSONL format represents each JSON object as a separate line, which can be useful for streaming and processing large datasets.
